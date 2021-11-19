@@ -117,12 +117,12 @@ for (let i = 0; i < favFilms.length; i ++){
 
 
 // ACITVITY 2
-const num = [];
-for (let i = 1; i <= 6; i++) 
-num.push(Math.floor(Math.random()*51))
-{
-console.log (num);
-}
+// const num = [];
+// for (let i = 1; i <= 6; i++) 
+// num.push(Math.floor(Math.random()*51))
+// {
+// console.log (num);
+// }
 
 // ACTIVITY 3
 
@@ -140,7 +140,7 @@ while (i > 0){
 let films = ["Harry Potter", "Finding Nemo","Ghostbusters", "Jaws"]
 for (let i = 0; i <films.length; i++)
         console.log(films[i]);
-if (films[2] === "Harry Potter"){
+if (films[2] === "Ghostbusters"){
     console.log (`Yay it's Ghostbusters!`)
 } else {
     console.log(`Boo we want Ghostbusters!`)
@@ -148,13 +148,12 @@ if (films[2] === "Harry Potter"){
 
 // ACTIVITY 5
 
-// let num = Math.floor(Math.random() * 31);
-// for (let i = 1; i <= 6; i++)
-// console.log(num)
-// if (num%7 == 0){
-//     console.log ("Number divisible by 7")
-// } else {console.log}
-
+let num = Math.floor(Math.random() * 31);
+for (let i = 1; i <= 1; i++)
+console.log(num)
+if (num%7 == 0){
+    console.log ("Number divisible by 7")
+} else {console.log("Number NOT divisible by 7")}
 
 // ACTIVITY 6
 let dylsFollowers = ["Frank","Mac","Dee","Dennis"];
