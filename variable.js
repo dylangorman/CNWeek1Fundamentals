@@ -149,50 +149,48 @@ console.log(`Tomorrows meals are, breakfast: ${breakfast}, lunch: ${lunch}, dinn
 // Create a program that calculates the number of days from today to your birthday 
 
 
-const oneDay = 24*60*60*1000; 
-let today = new Date(2021,10,16);
-let birthday = new Date(2022,09,28);
-let birthdate = new Date(1980,09,28);
-let diff = Math.round(Math.abs((today - birthday)/oneDay))
+// const oneDay = 24*60*60*1000; 
+// let today = new Date(2021,10,16);
+// let birthday = new Date(2022,09,28);
+// let birthdate = new Date(1980,09,28);
+// let diff = Math.round(Math.abs((today - birthday)/oneDay))
 
-console.log(`Todays date is ${today}`)
-console.log(`My Birthday is ${birthday}`)
-console.log(`Days until my next birthday are ${diff}`)
+// console.log(`Todays date is ${today}`)
+// console.log(`My Birthday is ${birthday}`)
+// console.log(`Days until my next birthday are ${diff}`)
 
-today = new Date (2021,10,16);
-birthday = new Date(1980,09,28);
-diff = Math.round(Math.abs((today - birthdate)/oneDay))
-console.log(`Days since my birthdate are ${diff}`)
+// today = new Date (2021,10,16);
+// birthday = new Date(1980,09,28);
+// diff = Math.round(Math.abs((today - birthdate)/oneDay))
+// console.log(`Days since my birthdate are ${diff}`)
 
 
 
 // ACTIVITY 4
 
-// let space1 = 
-// let space2 = 
-// let space3 = 
-// let space4 = 
-// let space5 = 
-// let space6 = 
-// let space7 = 
-// let space8 = 
-// let space9 = 
-// let space0 = 
-// let i = "|"
-// let j = "---------"
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-// console.log (`${space1}${i}${space2}${i}${space3}`);
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-// console.log(`${j}`)
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-// console.log (`${space1}${i}${space2}${i}${space3}`);
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-// console.log(`${j}`)
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-// console.log (`${space1}${i}${space2}${i}${space3}`);
-// console.log (`${space0}${i}${space0}${i}${space0}`);
-
-
+let space1 = "x";
+let space2 = "o";
+let space3 = "x";
+let space4 = "x";
+let space5 = "x";
+let space6 = "o";
+let space7 = "o";
+let space8 = "o";
+let space9 = "o";
+let space0 = " ";
+let i = " | "
+let j = "---------"
+console.log (`${space0}${i}${space0}${i}${space0}`);
+console.log (`${space1}${i}${space2}${i}${space3}`);
+console.log (`${space0}${i}${space0}${i}${space0}`);
+console.log(`${j}`)
+console.log (`${space0}${i}${space0}${i}${space0}`);
+console.log (`${space4}${i}${space5}${i}${space6}`);
+console.log (`${space0}${i}${space0}${i}${space0}`);
+console.log(`${j}`)
+console.log (`${space0}${i}${space0}${i}${space0}`);
+console.log (`${space7}${i}${space8}${i}${space9}`);
+console.log (`${space0}${i}${space0}${i}${space0}`);
 
 
 // if else and switch
